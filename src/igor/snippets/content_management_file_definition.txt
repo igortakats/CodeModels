@@ -1,0 +1,3 @@
+	@OneToOne(optional = false, fetch = FetchType.LAZY)
+	@JoinColumn(name = "ID_FILE_CONTENT_MANAGER", referencedColumnName = "IDENT", nullable = false)
+	private FileContentManagerORM arquivo;
